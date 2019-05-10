@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <title>Sports Stars</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/app.js"></script>
 </head>
 <body>
-    
+    <h1>Add a sports star:</h1>
+    <form id="new-sport-form">
+        <div id="form-item">
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first-name" required/>
+        </div>
+        <div id="form-item">
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last-name" required>
+        </div>
+        <div id="form-item">
+            <label for="sport">Sport:</label>
+            <select id="sport">
+                <option value="" disabled selected></option>
+                <option value="Football">Football</option>
+                <option value="Rugby">Rugby</option>
+                <option value="tennis">Tennis</option>
+            </select>
+        </div>
+        <div id="form-item">
+            <label for="nationality">Nationality:</label>
+            <select id="nationality">
+                <option value="" disabled selected></option>
+                <option value="English">English</option>
+                <option value="English">Scottish</option>
+                <option value="English">Welsh</option>
+                <option value="English">Irish</option>
+            </select>
+        </div>
+    </form>
+    <h1>List of sports people:</h1>
 </body>
 </html>
 
